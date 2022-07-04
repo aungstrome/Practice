@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+
+.paragraph {
+  text-align: left;
+  width: 50%;
+}
+
+.color-orange {
+  color: #ffa500;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  margin: 0 5%;
+}
+.half-width img {
+  width: 60%;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.about-section {
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-me {
+  margin: 10% 20% 3% 0;
+}

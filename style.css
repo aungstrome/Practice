@@ -1,11 +1,14 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h1 {
   font-size: 50px;
 }
 h2 {
   font-size: 40px;
+}
+h3 {
+  font-size: 30px;
 }
 
 .paragraph {
@@ -43,4 +46,28 @@ h2 {
 
 #about-me {
   margin: 10% 20% 3% 0;
+}
+
+.recipe-heading {
+  margin: 2% 30% 5%;
+  text-align: center;
+}
+
+.recipe-item {
+  padding: 1%;
+  margin: 0 2%;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 20px;
+}
+.recipe-item img {
+  width: 100%;
+  height: auto;
+}
+
+#curry {
+  height: 65%;
+}
+
+.recipe-content {
+  width: 100%;
 }

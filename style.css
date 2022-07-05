@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -10,7 +11,9 @@ h2 {
 h3 {
   font-size: 30px;
 }
-
+.top-banner {
+  margin-top: 1%;
+}
 .paragraph {
   text-align: left;
   width: 50%;
@@ -64,10 +67,37 @@ h3 {
   height: auto;
 }
 
-#curry {
+/* #curry {
   height: 65%;
-}
+} */
 
 .recipe-content {
   width: 100%;
+}
+
+.followers {
+  margin-left: 2%;
+  width: 30%;
+  text-align: center;
+}
+
+.follower-section {
+  box-shadow: 10px 10px 50px gray;
+  margin: 0 2%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 1%;
+  color: whitesmoke;
+}
+
+#food {
+  color: tomato;
+}
+#network {
+  color: #5b5b5b;
 }
